@@ -1,0 +1,5 @@
+--main-bg-color : #FFEAC5;
+--orange : #EF8242;
+--violet : #711A50;
+--text : #5B5559;
+--white : #FFEAC5;

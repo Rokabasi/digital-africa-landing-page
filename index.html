@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="programme">
+    <section class="program">
         <div class="program-title">
             <h2>PROGRAMME</h2>
             <p>Voici quelques étapes à suivre pour procéder à l'inscription du challenge Talent 4 startup.</p>
@@ -17,26 +17,39 @@
             <div class="program-card">
                 <div class="card-inscription">
                     <h4>Inscriptions</h4> 
-                    <img src="" alt=""/>     
+                    <div class="card-images">
+                        <img src="images/illustration.png" alt="image inscription" class="img-inscription"/>     
+                        <img  src="images/motif1.png" alt="motif image" class="motif-inscription"/>
+                    </div>
                 </div>
                 <div class="card-selection">
-                    <h4>Sélections</h4>
-                    <img src="" alt=""/>
+                    <div class="card-images">
+                        <h4>Sélections</h4>
+                        <img  src="images/cardmotif1.png" alt="motif image" class="motif-inscription"/>
+                    </div>
+                    <img src="images/illustration.png" alt="image inscription" class="img-selection"/>     
                 </div>
                 <div class="card-publication">
                     <h4>Publication</h4>
-                    <img src="" alt="" />
+                    <div class="card-images">
+                        
+                        <img  src="images/cardmotif1.png" alt="motif image" class="motif-inscription"/>
+                        <!-- <img src="images/illustration.png" alt="image inscription" class="img-publication"/>      -->
+                    </div>
                 </div>
             </div>
             <div class="dowload-condition">
-                <button>Télécharge Les conditions</button>
+                <button>Télécharge Les conditions<span>&#x2192</span></button>
                 <p>le document ci-dessus reprend de manière intégrale les différents critères de sélection<br/>
                 qui pourront déterminer si vous êtes éligibles ou non au programme Talent4startups challenge</p>
             </div>
             <div class="timer-content">
-                <h3>Fin des Inscriptions dans</h3>
+                <h3>Fin des inscriptions dans</h3>
                 <div class="timer">
-                    <div class="timer-counter"></div>
+                    <!-- <img src="images/cardmotif1.png" alt="" /> -->
+                    <div class="timer-counter">
+                        <p>30:18:45:20</p>
+                    </div>
                     <div class="timer-details">
                        <p>JOURS</p>
                        <p>HEURES</p>
@@ -51,10 +64,12 @@
                 <input type="email" required placeholder="Email*"/>
                 <input type="text" required placeholder="Nom de votre Start-up*"/>
                 <p>Décrivez votre concept en quelques lignes *</p>
-                <input type="text" required placeholder="message"/>
-                <p>Pièces jointes *</p>
-                <button>SELECTIONNER un fichier pdf *</button>
-                <button>Soumettre ma candidature</button>
+                <textarea name="" id="" cols="90" rows="6" required placeholder="message"></textarea>
+                <input type="textarea" required placeholder="message"/>
+                <p class="btn-file-p">Pièces jointes * :</p>
+                <button class="btn-select-file">Sélectionner un fichier pdf * </button><br/>
+                <input class="btn-file" type="file" placeholder="SELECTIONNER un fichier pdf *"></input>
+                <button type="submit" class="btn-submit">Soumettre ma candidature</button>
             </form>
         </div>
     </section>
