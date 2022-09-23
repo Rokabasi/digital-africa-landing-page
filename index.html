@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital africa</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <section class="program">
@@ -19,44 +20,48 @@
                     <h4>Inscriptions</h4> 
                     <div class="card-images">
                         <img src="images/illustration.png" alt="image inscription" class="img-inscription"/>     
-                        <img  src="images/motif1.png" alt="motif image" class="motif-inscription"/>
+                        <img  src="images/motif2.png" alt="motif image" class="motif-inscription"/>
                     </div>
                 </div>
                 <div class="card-selection">
                     <div class="card-images">
                         <h4>Sélections</h4>
-                        <img  src="images/cardmotif1.png" alt="motif image" class="motif-inscription"/>
+                        <!-- <img  src="images/motif2.png" alt="motif image" class="motif-inscription"/> -->
                     </div>
-                    <img src="images/illustration.png" alt="image inscription" class="img-selection"/>     
+                    <img src="images/illustration_woman3.png" alt="image inscription" class="img-selection"/>     
                 </div>
                 <div class="card-publication">
                     <h4>Publication</h4>
                     <div class="card-images">
-                        
-                        <img  src="images/cardmotif1.png" alt="motif image" class="motif-inscription"/>
-                        <!-- <img src="images/illustration.png" alt="image inscription" class="img-publication"/>      -->
+                            <img  src="images/motif2.png" alt="motif image" class="motif-publication"/>
+                            <img src="images/illustration_woman_symetry.png" alt="image inscription" class="img-publication"/>     
                     </div>
                 </div>
             </div>
             <div class="dowload-condition">
-                <button>Télécharge Les conditions<span>&#x2192</span></button>
+                <button>Télécharge Les conditions  <i class="fa-solid fa-arrow-right"></i></button>
                 <p>le document ci-dessus reprend de manière intégrale les différents critères de sélection<br/>
                 qui pourront déterminer si vous êtes éligibles ou non au programme Talent4startups challenge</p>
             </div>
             <div class="timer-content">
                 <h3>Fin des inscriptions dans</h3>
                 <div class="timer">
-                    <!-- <img src="images/cardmotif1.png" alt="" /> -->
+                    <img src="images/motif2.png" alt="" />
                     <div class="timer-counter">
-                        <p>30:18:45:20</p>
+                        <p id="day">30:</p>
+                        <p id="hour">18:</p>
+                        <p id="minutes">45:</p>
+                        <P id="second">20</P> 
                     </div>
                     <div class="timer-details">
-                       <p>JOURS</p>
-                       <p>HEURES</p>
-                       <p>MINUTES</p>
-                       <P>SECONDES</P>     
-                    </div>
+                        <p>JOURS</p>
+                        <p>HEURES</p>
+                        <p>MINUTES</p>
+                        <P>SECONDES</P>     
+                     </div>
                 </div>
+                   
+    
             </div>
             <form>
                 <h2>REMPLISSEZ LE FORMULAIRE</h2>
@@ -64,12 +69,11 @@
                 <input type="email" required placeholder="Email*"/>
                 <input type="text" required placeholder="Nom de votre Start-up*"/>
                 <p>Décrivez votre concept en quelques lignes *</p>
-                <textarea name="" id="" cols="90" rows="6" required placeholder="message"></textarea>
-                <input type="textarea" required placeholder="message"/>
+                <textarea name="" id="" cols="58" rows="6" required placeholder="message"></textarea>
                 <p class="btn-file-p">Pièces jointes * :</p>
                 <button class="btn-select-file">Sélectionner un fichier pdf * </button><br/>
                 <input class="btn-file" type="file" placeholder="SELECTIONNER un fichier pdf *"></input>
-                <button type="submit" class="btn-submit">Soumettre ma candidature</button>
+                <button class="btn-submit" type="submit" class="btn-submit">Soumettre ma candidature</button>
             </form>
         </div>
     </section>
